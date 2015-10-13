@@ -43,18 +43,35 @@ class RootViewControllerTableViewController: UITableViewController {
         super.didReceiveMemoryWarning()
     }
     
-    // method to provide functionality to figure out which font we want to display in a cell
+//    // method to provide functionality to figure out which font we want to display in a cell
+//    func fontForDisplay(atIndexPath indexPath: NSIndexPath) -> UIFont? {
+//        if indexPath.section == 0 {
+//            let familyName = familyNames[indexPath.row]
+//    // this line below has been updated and should be reviewed - specifically the String was force unwrapped
+//        //    let fontName = UIFont.fontNamesForFamilyName(familyName).first as String
+//        // below is erika's version
+//            if let fontName = UIFont.fontNamesForFamilyName(familyName).first as String! {
+//            return UIFont(name: fontName, size: cellPointSize)
+//        } else {
+//            return nil
+//            }
+//        }
+//    }
+
+    // This method uses the UIFont class, first to find all the font names for the given family name
+    // and then to grab the first font name within that family
     func fontForDisplay(atIndexPath indexPath: NSIndexPath) -> UIFont? {
         if indexPath.section == 0 {
             let familyName = familyNames[indexPath.row]
-    // this line below has been updated and should be reviewed - specifically the String was force unwrapped
-            let fontName = UIFont.fontNamesForFamilyName(familyName).first as String!
-            return UIFont(name: fontName, size: cellPointSize)
+            if let fontName = UIFont.fontNamesForFamilyName(familyName).first as String! {
+                return UIFont(name: fontName, size: cellPointSize)
+            } else {
+                return nil
+            }
         } else {
             return nil
         }
     }
-    
     
 
     // MARK: - Table view data source

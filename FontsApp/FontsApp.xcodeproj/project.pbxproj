@@ -401,6 +401,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FontsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BG.FontsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +413,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FontsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BG.FontsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -485,6 +487,7 @@
 				D3EDDC1B1BCD92550035E933 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3EDDC1C1BCD92550035E933 /* Build configuration list for PBXNativeTarget "FontsAppTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +496,7 @@
 				D3EDDC1E1BCD92550035E933 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3EDDC1F1BCD92550035E933 /* Build configuration list for PBXNativeTarget "FontsAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +505,7 @@
 				D3EDDC211BCD92550035E933 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

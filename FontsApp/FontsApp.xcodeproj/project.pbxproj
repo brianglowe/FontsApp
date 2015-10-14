@@ -16,6 +16,7 @@
 		D3EDDC231BCD93850035E933 /* FavoritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EDDC221BCD93850035E933 /* FavoritesList.swift */; settings = {ASSET_TAGS = (); }; };
 		D3EDDC251BCD990A0035E933 /* RootViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EDDC241BCD990A0035E933 /* RootViewControllerTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D3EDDC271BCDBB300035E933 /* FontListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EDDC261BCDBB300035E933 /* FontListViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D3EDDC291BCDE7130035E933 /* FontSizesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EDDC281BCDE7130035E933 /* FontSizesViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D3EDDC221BCD93850035E933 /* FavoritesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesList.swift; sourceTree = "<group>"; };
 		D3EDDC241BCD990A0035E933 /* RootViewControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewControllerTableViewController.swift; sourceTree = "<group>"; };
 		D3EDDC261BCDBB300035E933 /* FontListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontListViewController.swift; sourceTree = "<group>"; };
+		D3EDDC281BCDE7130035E933 /* FontSizesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontSizesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				D3EDDC221BCD93850035E933 /* FavoritesList.swift */,
 				D3EDDC241BCD990A0035E933 /* RootViewControllerTableViewController.swift */,
 				D3EDDC261BCDBB300035E933 /* FontListViewController.swift */,
+				D3EDDC281BCDE7130035E933 /* FontSizesViewController.swift */,
 				D3EDDBF41BCD92540035E933 /* AppDelegate.swift */,
 				D3EDDBF81BCD92540035E933 /* Main.storyboard */,
 				D3EDDBFB1BCD92540035E933 /* Assets.xcassets */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3EDDC291BCDE7130035E933 /* FontSizesViewController.swift in Sources */,
 				D3EDDC251BCD990A0035E933 /* RootViewControllerTableViewController.swift in Sources */,
 				D3EDDC271BCDBB300035E933 /* FontListViewController.swift in Sources */,
 				D3EDDBF51BCD92540035E933 /* AppDelegate.swift in Sources */,
